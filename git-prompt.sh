@@ -123,6 +123,8 @@
             magenta='\['`tput sgr0; tput setaf 5`'\]'
                cyan='\['`tput sgr0; tput setaf 6`'\]'
               white='\['`tput sgr0; tput setaf 7`'\]'
+        lightyellow='\['`tput sgr0; tput setaf 142`'\]'
+        lightblue='\['`tput sgr0; tput setaf 27`'\]'
 
               BLACK='\['`tput setaf 0; tput bold`'\]'
                 RED='\['`tput setaf 1; tput bold`'\]'
@@ -132,6 +134,7 @@
             MAGENTA='\['`tput setaf 5; tput bold`'\]'
                CYAN='\['`tput setaf 6; tput bold`'\]'
               WHITE='\['`tput setaf 7; tput bold`'\]'
+          LIGHTBLUE='\['`tput setaf 27; tput bold`'\]'
 
                 dim='\['`tput sgr0; tput setaf p1`'\]'  # half-bright
 
